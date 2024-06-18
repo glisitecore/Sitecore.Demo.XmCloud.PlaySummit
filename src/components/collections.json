@@ -204,10 +204,10 @@
         "collectionId": "EfQDdUxRmd",
         "name": "Teaser",
         "description": "",
-        "status": "staged",
+        "status": "published",
         "versionCount": 2,
         "stagedVersionCount": 2,
-        "embeddableVersionCount": 0,
+        "embeddableVersionCount": 3,
         "datasourceIds": [],
         "createdAt": "2023-06-08T08:45:02.309Z",
         "stagedAt": "2023-06-08T13:06:57.252Z",
@@ -229,10 +229,10 @@
         "collectionId": "EfQDdUxRmd",
         "name": "Large teaser",
         "description": "",
-        "status": "staged",
+        "status": "published",
         "versionCount": 1,
         "stagedVersionCount": 1,
-        "embeddableVersionCount": 0,
+        "embeddableVersionCount": 2,
         "datasourceIds": [],
         "createdAt": "2023-06-08T09:12:34.113Z",
         "stagedAt": "2023-06-08T13:06:24.758Z",
@@ -268,7 +268,7 @@
         "status": "changed",
         "versionCount": 2,
         "stagedVersionCount": 2,
-        "embeddableVersionCount": 0,
+        "embeddableVersionCount": 2,
         "datasourceIds": [],
         "createdAt": "2023-06-08T09:27:58.572Z",
         "stagedAt": "2023-06-08T14:31:06.461Z",
@@ -290,10 +290,10 @@
         "collectionId": "ZvLugTjxGu",
         "name": "Two product teaser",
         "description": "",
-        "status": "staged",
+        "status": "published",
         "versionCount": 3,
         "stagedVersionCount": 3,
-        "embeddableVersionCount": 0,
+        "embeddableVersionCount": 4,
         "datasourceIds": [],
         "createdAt": "2023-06-08T11:36:57.759Z",
         "stagedAt": "2023-06-08T14:27:31.972Z",
@@ -326,7 +326,7 @@
         "collectionId": "2kDkq3aAw3",
         "name": "Countdown Banner",
         "description": "",
-        "status": "published",
+        "status": "changed",
         "versionCount": 2,
         "stagedVersionCount": 2,
         "embeddableVersionCount": 1,
@@ -334,16 +334,28 @@
         "createdAt": "2023-07-25T14:32:59.514Z",
         "stagedAt": "2023-08-03T12:33:41.827Z",
         "publishedAt": "2023-08-03T12:33:41.827Z",
-        "modifiedAt": "2023-08-03T12:33:41.827Z",
+        "modifiedAt": "2024-06-17T18:57:50.149Z",
         "modifiedBy": {
-          "id": "63f77560c538c12a3133eaa8",
-          "name": "Neli Kostadinova",
-          "email": "neli.kostadinova@sitecore.com",
-          "picture": "https://s.gravatar.com/avatar/06d7dea3aaf279c901d2c05407892328?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fne.png",
-          "givenName": "Neli",
-          "familyName": "Kostadinova"
+          "id": "633482a4f4b7a325a5aaae74",
+          "name": "Gavin Little",
+          "email": "gavin.little@sitecore.com",
+          "picture": "https://s.gravatar.com/avatar/145ce7121efc8315c3647a9ff3c4507e?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fga.png",
+          "givenName": "Gavin",
+          "familyName": "Little"
         },
-        "bundles": []
+        "bundles": [
+          {
+            "id": "responsive",
+            "libraryId": "generated",
+            "componentId": "AopQJ8Q0yN",
+            "name": "Default bundle",
+            "description": "",
+            "breakpoints": {},
+            "orderIdx": "",
+            "createdAt": "2024-06-17T18:57:49.441Z",
+            "modifiedAt": "2024-06-17T18:57:49.441Z"
+          }
+        ]
       }
     ]
   },
@@ -362,7 +374,7 @@
         "collectionId": "-AC8JhQZKV",
         "name": "Athletes",
         "description": "Sample component featuring Athletes from connected Content Hub ONE instance.",
-        "status": "published",
+        "status": "changed",
         "versionCount": 1,
         "stagedVersionCount": 1,
         "embeddableVersionCount": 1,
@@ -372,16 +384,78 @@
         "createdAt": "2023-11-15T17:27:04.26Z",
         "stagedAt": "2023-11-16T18:10:05.908Z",
         "publishedAt": "2023-11-16T18:10:05.908Z",
-        "modifiedAt": "2023-11-16T18:10:05.908Z",
+        "modifiedAt": "2024-06-17T16:51:39.929Z",
         "modifiedBy": {
-          "id": "63ed31bdc5dac322725263de",
-          "name": "Alexander Doroshenko",
-          "email": "alexander.doroshenko@sitecore.com",
-          "picture": "https://s.gravatar.com/avatar/df9103e3d366714986d5e437d998bf3d?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fal.png",
-          "givenName": "Alexander",
-          "familyName": "Doroshenko"
+          "id": "633482a4f4b7a325a5aaae74",
+          "name": "Gavin Little",
+          "email": "gavin.little@sitecore.com",
+          "picture": "https://s.gravatar.com/avatar/145ce7121efc8315c3647a9ff3c4507e?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fga.png",
+          "givenName": "Gavin",
+          "familyName": "Little"
         },
-        "bundles": []
+        "bundles": [
+          {
+            "id": "responsive",
+            "libraryId": "generated",
+            "componentId": "TlH-4IjNyG",
+            "name": "Default bundle",
+            "description": "",
+            "breakpoints": {},
+            "orderIdx": "",
+            "createdAt": "2024-06-17T16:51:39.027Z",
+            "modifiedAt": "2024-06-17T16:51:39.027Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "libraryId": "generated",
+    "id": "_Mv9Q76iKS",
+    "name": "GL Components",
+    "isDefault": false,
+    "orderIdx": "",
+    "createdAt": "2024-06-17T18:40:55.137Z",
+    "modifiedAt": "2024-06-17T18:40:55.137Z",
+    "components": [
+      {
+        "libraryId": "generated",
+        "id": "TzN7cShDKB",
+        "collectionId": "_Mv9Q76iKS",
+        "name": "Promo",
+        "description": "",
+        "status": "staged",
+        "versionCount": 1,
+        "stagedVersionCount": 1,
+        "embeddableVersionCount": 1,
+        "datasourceIds": [
+          "dfed4457d760457abec1c0dccdc44381"
+        ],
+        "createdAt": "2024-06-17T18:48:43.802Z",
+        "stagedAt": "2024-06-17T18:57:08.187Z",
+        "publishedAt": null,
+        "modifiedAt": "2024-06-17T18:57:08.187Z",
+        "modifiedBy": {
+          "id": "633482a4f4b7a325a5aaae74",
+          "name": "Gavin Little",
+          "email": "gavin.little@sitecore.com",
+          "picture": "https://s.gravatar.com/avatar/145ce7121efc8315c3647a9ff3c4507e?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fga.png",
+          "givenName": "Gavin",
+          "familyName": "Little"
+        },
+        "bundles": [
+          {
+            "id": "responsive",
+            "libraryId": "generated",
+            "componentId": "TzN7cShDKB",
+            "name": "Default bundle",
+            "description": "",
+            "breakpoints": {},
+            "orderIdx": "",
+            "createdAt": "2024-06-17T18:48:49.59Z",
+            "modifiedAt": "2024-06-17T18:48:49.59Z"
+          }
+        ]
       }
     ]
   }

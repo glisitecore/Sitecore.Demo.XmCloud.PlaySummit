@@ -1,0 +1,25 @@
+﻿---
+ID: "02d9cda8-c1af-4674-8c43-3b7edfaa4554"
+Parent: "76a4c994-f91e-4395-8235-f928cf179628"
+Template: "3ee5e476-e843-51f1-a351-d2c3b198475a"
+Path: "/sitecore/content/PLAY/playwebsite/home/landing-pages/Expo Article/Data/Hero Image"
+BranchID: "c21cb9f5-9d4c-4904-b199-538835128fa3"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3B749C2C-17D7-4E37-B3A4-8884E44F2305}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "7f1d47cf-4525-5f3e-b8fe-4c6ddbcefa39"
+      Hint: hero
+      Value: |
+        <image src="https://glixmcplay.sitecoresandbox.cloud/api/public/content/8fe4ba41a9624180ae6146e98b715c11?v=e5b5f1b3" dam-id="dO6jCu7zS_uILb9XhgeRUw" width="1178" height="785" alt="USA Skateboarder.png" dam-content-type="Image" thumbnailsrc="https://glixmcplay.sitecoresandbox.cloud/api/gateway/74901/thumbnail" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc668e7c-edd5-49ff-9551-b5c9281987ce"

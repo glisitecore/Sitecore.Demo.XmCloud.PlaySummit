@@ -1,0 +1,72 @@
+[
+  {
+    "libraryId": "generated",
+    "id": "_REyZlb2sa",
+    "componentId": "TzN7cShDKB",
+    "name": "Name",
+    "description": "",
+    "status": "staged",
+    "orderIdx": "03qKK",
+    "revision": 15,
+    "model": "",
+    "view": "<style data-format-version=\"30\">/* Type: grid Id: custom-grid Title: Custom grid Instance Id: QV4KN7UjtA */ .-grid--custom[data-instance-id=\"QV4KN7UjtA\"]:not(._._._._._._#_) { ---self--display: grid; display: var(---self--display); grid-template-rows: minmax(36px,36px) minmax(36px,36px) minmax(36px,36px) minmax(36px,36px) minmax(36px, auto); grid-template-columns: minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr); row-gap: var(---spacing--row-gap); column-gap: var(---spacing--column-gap); } .-grid--custom[data-instance-id=\"QV4KN7UjtA\"] > :nth-child(1):not(._._._._._._#_) { grid-column: 1; grid-column-end: 6; grid-row: 1; grid-row-end: 6; order: 0; position: relative; } /* Data: {\"type\":\"grid\",\"details\":{\"title\":\"Custom grid\",\"description\":\"\",\"id\":\"custom-grid\",\"exampleContent\":null,\"slug\":\"custom\",\"isInternal\":true,\"isHidden\":true,\"instanceId\":\"QV4KN7UjtA\"},\"props\":{\"columns\":[{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}}],\"rows\":[{\"min\":{\"value\":36,\"unit\":\"px\"},\"max\":{\"value\":36,\"unit\":\"px\"}},{\"min\":{\"value\":36,\"unit\":\"px\"},\"max\":{\"value\":36,\"unit\":\"px\"}},{\"min\":{\"value\":36,\"unit\":\"px\"},\"max\":{\"value\":36,\"unit\":\"px\"}},{\"min\":{\"value\":36,\"unit\":\"px\"},\"max\":{\"value\":36,\"unit\":\"px\"}},{\"min\":{\"value\":36,\"unit\":\"px\"},\"max\":null}],\"items\":[{\"from\":{\"row\":1,\"column\":1},\"to\":{\"row\":6,\"column\":6},\"order\":0}]}} */ /* --- */  /* Type: lines Id: 5SH5B5Vth0 Instance Id: 5TO6C9fgsZ */ .-lines--[data-instance-id=\"5TO6C9fgsZ\"]:not(._._._._._._#_) { text-align: left; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; word-break: normal; overflow-wrap: normal; } /* Data: {\"type\":\"lines\",\"details\":{\"title\":\"\",\"description\":\"\",\"id\":\"5SH5B5Vth0\",\"exampleContent\":null,\"instanceId\":\"5TO6C9fgsZ\"},\"props\":{\"textAlign\":\"left\",\"lines\":1,\"ellipsis\":true,\"wordBreak\":\"normal\"}} */ /* --- */  /* Type: lines Id: RfgVFiCAww Instance Id: TrlHzAmFtw */ .-lines--[data-instance-id=\"TrlHzAmFtw\"]:not(._._._._._._#_) { text-align: left; ---self--display: -webkit-box; display: var(---self--display); -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; word-break: normal; overflow-wrap: normal; } /* Data: {\"type\":\"lines\",\"details\":{\"title\":\"\",\"description\":\"\",\"id\":\"RfgVFiCAww\",\"exampleContent\":null,\"instanceId\":\"TrlHzAmFtw\"},\"props\":{\"textAlign\":\"left\",\"lines\":2,\"ellipsis\":false,\"wordBreak\":\"normal\"}} */</style><section class=\"-grid--custom -has--background\" data-instance-id=\"QV4KN7UjtA\" data-path-src=\"dfed4457d760457abec1c0dccdc44381.PromoIcon.src\"><div class=\"-card\"><h3 class=\"-lines--\" data-instance-id=\"5TO6C9fgsZ\"><var data-path=\"dfed4457d760457abec1c0dccdc44381.PromoText2\"></var></h3><p class=\"-lines--\" data-instance-id=\"TrlHzAmFtw\"><var data-path=\"dfed4457d760457abec1c0dccdc44381.PromoText3\"></var></p><a class=\"-button\" data-path-href=\"dfed4457d760457abec1c0dccdc44381.PromoLink.href\" href=\"\"><var data-path=\"dfed4457d760457abec1c0dccdc44381.PromoLink.text\"></var></a></div><picture class=\"-image--background\"><img src=\"https://feaasstatic.blob.core.windows.net/assets/sample/background.svg\" /></picture></section>",
+    "diff": {},
+    "breakpointIds": null,
+    "datasourceIds": [
+      "dfed4457d760457abec1c0dccdc44381"
+    ],
+    "isEmbeddable": false,
+    "forkOriginId": null,
+    "forkOriginRevision": 0,
+    "forkedAt": null,
+    "classList": [
+      "-theme--default"
+    ],
+    "createdAt": "2024-06-17T18:48:50.303Z",
+    "deletedAt": null,
+    "modifiedAt": "2024-06-17T18:57:08.187Z",
+    "modifiedBy": {
+      "id": "633482a4f4b7a325a5aaae74",
+      "name": "Gavin Little",
+      "givenName": "Gavin",
+      "familyName": "Little",
+      "email": "gavin.little@sitecore.com",
+      "picture": "https://s.gravatar.com/avatar/145ce7121efc8315c3647a9ff3c4507e?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fga.png"
+    }
+  },
+  {
+    "libraryId": "generated",
+    "id": "_REyZlb2sa",
+    "componentId": "TzN7cShDKB",
+    "name": "Name",
+    "description": "",
+    "status": "saved",
+    "orderIdx": "03qKK",
+    "revision": 15,
+    "model": "",
+    "view": "<style data-format-version=\"30\">/* Type: grid Id: custom-grid Title: Custom grid Instance Id: QV4KN7UjtA */ .-grid--custom[data-instance-id=\"QV4KN7UjtA\"]:not(._._._._._._#_) { ---self--display: grid; display: var(---self--display); grid-template-rows: minmax(36px,36px) minmax(36px,36px) minmax(36px,36px) minmax(36px,36px) minmax(36px, auto); grid-template-columns: minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr); row-gap: var(---spacing--row-gap); column-gap: var(---spacing--column-gap); } .-grid--custom[data-instance-id=\"QV4KN7UjtA\"] > :nth-child(1):not(._._._._._._#_) { grid-column: 1; grid-column-end: 6; grid-row: 1; grid-row-end: 6; order: 0; position: relative; } /* Data: {\"type\":\"grid\",\"details\":{\"title\":\"Custom grid\",\"description\":\"\",\"id\":\"custom-grid\",\"exampleContent\":null,\"slug\":\"custom\",\"isInternal\":true,\"isHidden\":true,\"instanceId\":\"QV4KN7UjtA\"},\"props\":{\"columns\":[{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}},{\"min\":{\"value\":0,\"unit\":\"px\"},\"max\":{\"value\":1,\"unit\":\"fr\"}}],\"rows\":[{\"min\":{\"value\":36,\"unit\":\"px\"},\"max\":{\"value\":36,\"unit\":\"px\"}},{\"min\":{\"value\":36,\"unit\":\"px\"},\"max\":{\"value\":36,\"unit\":\"px\"}},{\"min\":{\"value\":36,\"unit\":\"px\"},\"max\":{\"value\":36,\"unit\":\"px\"}},{\"min\":{\"value\":36,\"unit\":\"px\"},\"max\":{\"value\":36,\"unit\":\"px\"}},{\"min\":{\"value\":36,\"unit\":\"px\"},\"max\":null}],\"items\":[{\"from\":{\"row\":1,\"column\":1},\"to\":{\"row\":6,\"column\":6},\"order\":0}]}} */ /* --- */  /* Type: lines Id: 5SH5B5Vth0 Instance Id: 5TO6C9fgsZ */ .-lines--[data-instance-id=\"5TO6C9fgsZ\"]:not(._._._._._._#_) { text-align: left; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; word-break: normal; overflow-wrap: normal; } /* Data: {\"type\":\"lines\",\"details\":{\"title\":\"\",\"description\":\"\",\"id\":\"5SH5B5Vth0\",\"exampleContent\":null,\"instanceId\":\"5TO6C9fgsZ\"},\"props\":{\"textAlign\":\"left\",\"lines\":1,\"ellipsis\":true,\"wordBreak\":\"normal\"}} */ /* --- */  /* Type: lines Id: RfgVFiCAww Instance Id: TrlHzAmFtw */ .-lines--[data-instance-id=\"TrlHzAmFtw\"]:not(._._._._._._#_) { text-align: left; ---self--display: -webkit-box; display: var(---self--display); -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; word-break: normal; overflow-wrap: normal; } /* Data: {\"type\":\"lines\",\"details\":{\"title\":\"\",\"description\":\"\",\"id\":\"RfgVFiCAww\",\"exampleContent\":null,\"instanceId\":\"TrlHzAmFtw\"},\"props\":{\"textAlign\":\"left\",\"lines\":2,\"ellipsis\":false,\"wordBreak\":\"normal\"}} */</style><section class=\"-grid--custom -has--background\" data-instance-id=\"QV4KN7UjtA\" data-path-src=\"dfed4457d760457abec1c0dccdc44381.PromoIcon.src\"><div class=\"-card\"><h3 class=\"-lines--\" data-instance-id=\"5TO6C9fgsZ\"><var data-path=\"dfed4457d760457abec1c0dccdc44381.PromoText2\"></var></h3><p class=\"-lines--\" data-instance-id=\"TrlHzAmFtw\"><var data-path=\"dfed4457d760457abec1c0dccdc44381.PromoText3\"></var></p><a class=\"-button\" data-path-href=\"dfed4457d760457abec1c0dccdc44381.PromoLink.href\" href=\"\"><var data-path=\"dfed4457d760457abec1c0dccdc44381.PromoLink.text\"></var></a></div><picture class=\"-image--background\"><img src=\"https://feaasstatic.blob.core.windows.net/assets/sample/background.svg\" /></picture></section>",
+    "diff": {},
+    "breakpointIds": null,
+    "datasourceIds": [
+      "dfed4457d760457abec1c0dccdc44381"
+    ],
+    "isEmbeddable": false,
+    "forkOriginId": null,
+    "forkOriginRevision": 0,
+    "forkedAt": null,
+    "classList": [
+      "-theme--default"
+    ],
+    "createdAt": "2024-06-17T18:48:50.303Z",
+    "deletedAt": null,
+    "modifiedAt": "2024-06-17T18:57:08.187Z",
+    "modifiedBy": {
+      "id": "633482a4f4b7a325a5aaae74",
+      "name": "Gavin Little",
+      "givenName": "Gavin",
+      "familyName": "Little",
+      "email": "gavin.little@sitecore.com",
+      "picture": "https://s.gravatar.com/avatar/145ce7121efc8315c3647a9ff3c4507e?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fga.png"
+    }
+  }
+]
