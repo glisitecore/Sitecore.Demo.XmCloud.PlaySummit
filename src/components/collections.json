@@ -332,7 +332,7 @@
         "embeddableVersionCount": 1,
         "datasourceIds": [],
         "createdAt": "2023-07-25T14:32:59.514Z",
-        "stagedAt": "2023-08-03T12:33:41.827Z",
+        "stagedAt": null,
         "publishedAt": "2023-08-03T12:33:41.827Z",
         "modifiedAt": "2024-06-17T18:57:50.149Z",
         "modifiedBy": {
@@ -343,19 +343,7 @@
           "givenName": "Gavin",
           "familyName": "Little"
         },
-        "bundles": [
-          {
-            "id": "responsive",
-            "libraryId": "generated",
-            "componentId": "AopQJ8Q0yN",
-            "name": "Default bundle",
-            "description": "",
-            "breakpoints": {},
-            "orderIdx": "",
-            "createdAt": "2024-06-17T18:57:49.441Z",
-            "modifiedAt": "2024-06-17T18:57:49.441Z"
-          }
-        ]
+        "bundles": []
       }
     ]
   },
@@ -382,7 +370,7 @@
           "Athlete"
         ],
         "createdAt": "2023-11-15T17:27:04.26Z",
-        "stagedAt": "2023-11-16T18:10:05.908Z",
+        "stagedAt": null,
         "publishedAt": "2023-11-16T18:10:05.908Z",
         "modifiedAt": "2024-06-17T16:51:39.929Z",
         "modifiedBy": {
@@ -393,19 +381,7 @@
           "givenName": "Gavin",
           "familyName": "Little"
         },
-        "bundles": [
-          {
-            "id": "responsive",
-            "libraryId": "generated",
-            "componentId": "TlH-4IjNyG",
-            "name": "Default bundle",
-            "description": "",
-            "breakpoints": {},
-            "orderIdx": "",
-            "createdAt": "2024-06-17T16:51:39.027Z",
-            "modifiedAt": "2024-06-17T16:51:39.027Z"
-          }
-        ]
+        "bundles": []
       }
     ]
   },
@@ -443,19 +419,7 @@
           "givenName": "Gavin",
           "familyName": "Little"
         },
-        "bundles": [
-          {
-            "id": "responsive",
-            "libraryId": "generated",
-            "componentId": "TzN7cShDKB",
-            "name": "Default bundle",
-            "description": "",
-            "breakpoints": {},
-            "orderIdx": "",
-            "createdAt": "2024-06-17T18:48:49.59Z",
-            "modifiedAt": "2024-06-17T18:48:49.59Z"
-          }
-        ]
+        "bundles": []
       }
     ]
   }
