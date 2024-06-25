@@ -3,9 +3,9 @@
   "href": "https://api-us.boxever.com/v3/flowDefinitions/39b85725-9f8f-491d-961f-656e8aa47ccc",
   "ref": "39b85725-9f8f-491d-961f-656e8aa47ccc",
   "name": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
-  "modifiedByRef": "UsQ4dFnLMklHuDXU8acKstHeXEC65tgU@clients",
-  "modifiedAt": "2024-06-18T15:13:42.474Z",
-  "revision": 4,
+  "modifiedByRef": "auth0|633482a4f4b7a325a5aaae74",
+  "modifiedAt": "2024-06-24T18:30:01.922Z",
+  "revision": 8,
   "archived": false,
   "friendlyId": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
   "type": "INTERACTIVE_API_FLOW",
@@ -20,14 +20,25 @@
   "traffic": {
     "type": "audienceTraffic",
     "weightingAlgorithm": "USER_DEFINED",
-    "modifiedAt": "2024-06-18T15:13:42.606Z",
+    "modifiedAt": "2024-06-24T18:30:01.938Z",
     "splits": [
       {
-        "template": "{\"variantId\": \"cd395f6b74264cf1bb14d7867084856a\"}",
+        "template": "{\"variantId\": \"11f5542ccf1149cabbc1c074469b97f9\"}",
         "variantName": "Snowboarders",
         "audienceName": "Snowboarders",
         "conditionGroups": [
           {
+            "conditions": [
+              {
+                "templateId": "new_or_returning_visitor",
+                "params": {
+                  "type": "returning"
+                }
+              }
+            ]
+          },
+          {
+            "unionType": "AND",
             "conditions": [
               {
                 "templateId": "page_view",
@@ -45,7 +56,7 @@
   "variants": [],
   "transpiledVariants": [
     {
-      "ref": "f885f79f-f559-464c-b4c9-7850746ab43d",
+      "ref": "3b80e185-64e7-4bb9-8e1c-0d18835e12eb",
       "name": "Snowboarders",
       "tasks": [
         {
@@ -53,7 +64,7 @@
           "input": {
             "inputType": "templateRenderTaskInput",
             "type": "application/json",
-            "template": "{\"variantId\": \"cd395f6b74264cf1bb14d7867084856a\"}"
+            "template": "{\"variantId\": \"11f5542ccf1149cabbc1c074469b97f9\"}"
           }
         },
         {
@@ -66,7 +77,7 @@
                 "name": "Combined condition groups",
                 "description": "Combined templates within condition group for targeted experience",
                 "ruleData": {
-                  "expression": "(function () {\n    var visited = \"has\";\n    var pageName = \"/snowboarding\";\n    var pageValues = pageName.split(',');\n    var expectedType = \"WEB\";\n    var expectedStatus = \"OPEN\";\n    var pageMatch = false;\n\n    if (guest && guest.sessions && guest.sessions.length > 0) {\n        loop:\n        for (var i = 0; i < guest.sessions.length; i++) {\n            if (guest.sessions[i]) {\n                if (\n                    guest.sessions[i].sessionType !== expectedType\n                    || guest.sessions[i].status !== expectedStatus\n                ) {\n                    continue loop;\n                } else if (\n                    guest.sessions[i].events\n                ) {\n                    for (var j = 0; j < guest.sessions[i].events.length; j++) {\n                        if (guest.sessions[i].events[j].arbitraryData) {\n                            if (guest.sessions[i].events[j].arbitraryData.page) {\n                                var viewedpage = guest.sessions[i].events[j].arbitraryData.page;\n                                for (var k = 0; k < pageValues.length; k++) {   \n                                    if (viewedpage === pageValues[k]) { \n                                        pageMatch = true;   \n                                        break loop; \n                                    }   \n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n    \n    return (visited === \"has\") && pageMatch || (visited === \"has not\") && !pageMatch;\n})();"
+                  "expression": "(function () {\n    var userType = \"returning\";\n    var expectedType = \"WEB\";\n    var expectedStatus = \"CLOSED\";\n    var isReturning = false;\n\n    if (guest && guest.sessions && guest.sessions.length > 0) {\n        for (var index = 0; index < guest.sessions.length; index++) {\n            if (\n                guest.sessions[index] &&\n                expectedType === guest.sessions[index].sessionType &&\n                expectedStatus === guest.sessions[index].status\n            ) {\n                isReturning = true;\n                break;\n            }\n        }\n    }\n\n    if (isReturning && userType === \"returning\") {\n        return true;\n    } else if (!isReturning && userType === \"new\") {\n        return true;\n    } else {\n        return false;\n    }\n})() && (function () {\n    var visited = \"has\";\n    var pageName = \"/snowboarding\";\n    var pageValues = pageName.split(',');\n    var expectedType = \"WEB\";\n    var expectedStatus = \"OPEN\";\n    var pageMatch = false;\n\n    if (guest && guest.sessions && guest.sessions.length > 0) {\n        loop:\n        for (var i = 0; i < guest.sessions.length; i++) {\n            if (guest.sessions[i]) {\n                if (\n                    guest.sessions[i].sessionType !== expectedType\n                    || guest.sessions[i].status !== expectedStatus\n                ) {\n                    continue loop;\n                } else if (\n                    guest.sessions[i].events\n                ) {\n                    for (var j = 0; j < guest.sessions[i].events.length; j++) {\n                        if (guest.sessions[i].events[j].arbitraryData) {\n                            if (guest.sessions[i].events[j].arbitraryData.page) {\n                                var viewedpage = guest.sessions[i].events[j].arbitraryData.page;\n                                for (var k = 0; k < pageValues.length; k++) {   \n                                    if (viewedpage === pageValues[k]) { \n                                        pageMatch = true;   \n                                        break loop; \n                                    }   \n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n    \n    return (visited === \"has\") && pageMatch || (visited === \"has not\") && !pageMatch;\n})();"
                 }
               }
             ]

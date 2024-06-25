@@ -3,7 +3,6 @@ ID: "1f0a2872-5d15-434c-a16f-66fc00e792ea"
 Parent: "4d587c56-3717-41cb-936c-5d0412a50b6b"
 Template: "95cb88e7-8068-4a9c-9eeb-05f9a22c49d4"
 Path: "/sitecore/content/PLAY/playwebsite/home/landing-pages/Expo Article"
-BranchID: "c21cb9f5-9d4c-4904-b199-538835128fa3"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
@@ -94,12 +93,50 @@ Languages:
               <p:d />
             </r>
             <r
-              uid="{AB447E90-E025-4BAD-88EA-4F5704C65F9B}"
-              p:after="*[1=2]"
-              s:ds="3dcdf4a9-628f-4934-8195-4ecf11e51ad0"
-              s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
-              s:par="GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames=%7B0E59FDE5-1A8B-4967-8E4B-8E16DCB80939%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+              uid="{065165B6-FA64-4E2A-BC24-046BAAA4768C}"
+              p:after="r[@uid='{8FFB7C22-CF70-4713-B8D4-F2CD49456CA2}']"
+              s:id="{DDC43BE7-D77A-4CE3-9282-03DD036EEC6D}"
+              s:par="ComponentName=SitecoreForm%3FformId%3Dee67e3dac6974af893fc9b3c03303d8b-use&amp;ComponentProps&amp;ComponentLabel=Expo%20Sign%20Up&amp;GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
               s:ph="/headless-main/container-5" />
+            <r
+              uid="{BCEAF223-53FB-46B2-850A-72CE5CFC6F48}"
+              p:after="*[1=2]"
+              s:ds="2705243f-12d1-4308-ae61-dd291fa48e96"
+              s:id="{CAA0C742-F052-49FB-825B-A03494798DB7}"
+              s:pt="personalizationTest"
+              s:par="ComponentName=GL Promo&amp;ComponentConfiguration&amp;LibraryId={{libraryId}}&amp;ComponentId=62R9BRMbJn&amp;ComponentVersion=responsive&amp;ComponentRevision=staged&amp;ComponentHostName=https://feaas.blob.core.windows.net&amp;ComponentInstanceId=zg0OIonSfnQ5gM9&amp;ComponentDataOverride&amp;ComponentHTMLOverride&amp;ComponentLabel=GL Promo&amp;GridParameters={F61E01E9-711A-4C99-AE30-4E28463E1DF7}&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+              s:ph="/headless-main/container-5">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{02BBE701-5F71-4233-8DD8-F9F0998B264E}"
+                    s:name="11f5542ccf1149cabbc1c074469b97f9">
+                    <conditions>
+                      <condition
+                        uid="0AB720A6BD3A4DF6BD1406C85211B257"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="11f5542ccf1149cabbc1c074469b97f9" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{393DFD85-FFD9-4154-9CAD-8A004EFFE006}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="3dcdf4a9-628f-4934-8195-4ecf11e51ad0" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="A3603E7670EB4B62A1FC92053DC00A33"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
           </d>
         </r>
     - ID: "17707054-bc28-496c-925f-e614ba18f3e0"
@@ -110,10 +147,17 @@ Languages:
       Value: Expo Article
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d9a81213-76af-4a2b-8931-a59a13518798"
+      Value: "8f29e02f-ef5e-4476-8399-a7e53bb048ac"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240629T105000Z
     - ID: "e0c0c8a4-0fea-4963-8b86-d47810b80efa"
       Hint: Content
-      Value: "<p>Montreal, QC –  Get ready for an adrenaline rush as the most anticipated Extreme Sports Expo is set to take place at the Montreal Convention Centre soon. This electrifying event promises to bring together extreme sports enthusiasts, professional athletes, and curious newcomers for three days of high-octane activities, exhibitions, and demonstrations.</p><p><strong>Special Guests and Athletes</strong></p><p>The event will host some of the biggest names in extreme sports. Fans will have the chance to meet and greet their idols, get autographs, and even join them in select activities. Look forward to appearances by Tony Hawk, BMX legend Dave Mirra, and rock climbing sensation Sasha DiGiulian.</p><p><br /></p>"
+      Value: |
+        <div class="ck-content"><p data-placeholder="[No text in field]">Montreal, QC – Get ready for an adrenaline rush as the most anticipated Extreme Sports Expo is set to take place at the Montreal Convention Centre soon. This electrifying event promises to bring together extreme sports enthusiasts, professional athletes, and curious newcomers for three days of high-octane activities, exhibitions, and demonstrations.</p><p><strong>Special Guests and Athletes</strong></p><p>The event will host some of the biggest names in extreme sports. Fans will have the chance to meet and greet their idols, get autographs, and even join them in select activities. Look forward to appearances by Tony Hawk, BMX legend Dave Mirra, and rock climbing sensation Sasha DiGiulian.</p><figure class="image"><img style="aspect-ratio:1516/922;" src="https://glixmcplay.sitecoresandbox.cloud/api/public/content/3fb3ac1a6aea4c139e48c792636e89ce?v=71723730" alt="snowboardactionbw (1).jpg" width="1516" height="922" /></figure><p>&nbsp;</p></div>
 - Language: "fr-CA"
   Versions:
   - Version: 1
