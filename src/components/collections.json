@@ -343,19 +343,7 @@
           "givenName": "Gavin",
           "familyName": "Little"
         },
-        "bundles": [
-          {
-            "id": "responsive",
-            "libraryId": "generated",
-            "componentId": "AopQJ8Q0yN",
-            "name": "Default bundle",
-            "description": "",
-            "breakpoints": {},
-            "orderIdx": "",
-            "createdAt": "2024-06-24T18:14:27.352Z",
-            "modifiedAt": "2024-06-24T18:14:27.352Z"
-          }
-        ]
+        "bundles": []
       }
     ]
   },
@@ -431,19 +419,7 @@
           "givenName": "Gavin",
           "familyName": "Little"
         },
-        "bundles": [
-          {
-            "id": "responsive",
-            "libraryId": "generated",
-            "componentId": "62R9BRMbJn",
-            "name": "Default bundle",
-            "description": "",
-            "breakpoints": {},
-            "orderIdx": "",
-            "createdAt": "2024-06-24T18:01:51.093Z",
-            "modifiedAt": "2024-06-24T18:01:51.093Z"
-          }
-        ]
+        "bundles": []
       },
       {
         "libraryId": "generated",
