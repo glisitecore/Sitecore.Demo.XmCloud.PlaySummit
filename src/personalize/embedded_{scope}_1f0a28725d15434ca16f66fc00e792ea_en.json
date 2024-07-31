@@ -4,8 +4,8 @@
   "ref": "39b85725-9f8f-491d-961f-656e8aa47ccc",
   "name": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
   "modifiedByRef": "UsQ4dFnLMklHuDXU8acKstHeXEC65tgU@clients",
-  "modifiedAt": "2024-07-29T17:43:44.734Z",
-  "revision": 10,
+  "modifiedAt": "2024-07-30T19:29:14.633Z",
+  "revision": 12,
   "archived": false,
   "friendlyId": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
   "type": "INTERACTIVE_API_FLOW",
@@ -20,7 +20,7 @@
   "traffic": {
     "type": "audienceTraffic",
     "weightingAlgorithm": "USER_DEFINED",
-    "modifiedAt": "2024-07-29T17:43:44.751Z",
+    "modifiedAt": "2024-07-30T19:29:14.66Z",
     "splits": [
       {
         "template": "{\"variantId\": \"11f5542ccf1149cabbc1c074469b97f9\"}",
@@ -56,7 +56,7 @@
   "variants": [],
   "transpiledVariants": [
     {
-      "ref": "6ff7d10b-8b42-47a5-bca3-5e7e7aa45b10",
+      "ref": "eb248114-5922-4b94-92d2-22e47bcabfc8",
       "name": "Snowboarders",
       "tasks": [
         {
@@ -98,5 +98,6 @@
     "baseValue": 0.15,
     "minimumDetectableDifference": 0.02,
     "confidenceLevel": 0.95
-  }
+  },
+  "notificationEnabled": false
 }
