@@ -92,6 +92,51 @@ Languages:
               uid="{C27FD4E9-75A2-4A33-9834-858BCA11AAF6}">
               <p:d />
             </r>
+            <r
+              uid="{ADA3184D-C4D6-408E-A57F-E1238E8B94D5}"
+              p:after="r[@uid='{8FFB7C22-CF70-4713-B8D4-F2CD49456CA2}']"
+              s:ds="3dcdf4a9-628f-4934-8195-4ecf11e51ad0"
+              s:id="{CAA0C742-F052-49FB-825B-A03494798DB7}"
+              s:pt="personalizationTest"
+              s:par="ComponentName=Promo&amp;ComponentConfiguration&amp;LibraryId={{libraryId}}&amp;ComponentId=E0ov-HAPIt&amp;ComponentVersion=responsive&amp;ComponentRevision=staged&amp;ComponentHostName=https://feaas.blob.core.windows.net&amp;ComponentInstanceId=-I2ULOQ9nPs6BYI&amp;ComponentDataOverride&amp;ComponentHTMLOverride&amp;ComponentLabel=Promo&amp;GridParameters={F61E01E9-711A-4C99-AE30-4E28463E1DF7}&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+              s:ph="/headless-main/container-5">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{25D7EACC-882A-481A-983F-786EF7363842}"
+                    s:name="09698af75b744cfcaeeac266ec4268b1">
+                    <conditions>
+                      <condition
+                        uid="BE0EF9D73982422D803794FD33AC19E2"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="09698af75b744cfcaeeac266ec4268b1" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{D6E706FA-4B53-4BA0-881B-ACA73538D1A6}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="2705243f-12d1-4308-ae61-dd291fa48e96" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="C044BA62999B441C9D40C6353A50B442"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{94499ADE-91BF-4788-9FBC-75589906074E}"
+              p:after="*[1=2]"
+              s:id="{DDC43BE7-D77A-4CE3-9282-03DD036EEC6D}"
+              s:par="ComponentName=SitecoreForm%3FformId%3D1fe6e6064d4c406dbf9b801f24fde722-use&amp;ComponentProps&amp;ComponentLabel=Sign%20Up&amp;GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
+              s:ph="/headless-main/container-5" />
           </d>
         </r>
     - ID: "17707054-bc28-496c-925f-e614ba18f3e0"
@@ -102,7 +147,7 @@ Languages:
       Value: Expo Article
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c30d7f19-ed09-446a-ac1a-730b17affc76"
+      Value: "c120e6c4-f512-4dda-b66e-5a72076e6383"
     - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
       Hint: __Hide version
       Value: 1
@@ -112,7 +157,7 @@ Languages:
     - ID: "e0c0c8a4-0fea-4963-8b86-d47810b80efa"
       Hint: Content
       Value: |
-        <div class="ck-content"><p data-placeholder="[No text in field]">Montreal, QC – Get ready for an adrenaline rush as the most anticipated Extreme Sports Expo is set to take place at the Montreal Convention Centre soon. This electrifying event promises to bring together extreme sports enthusiasts, professional athletes, and curious newcomers for three days of high-octane activities, exhibitions, and demonstrations.</p><p><strong>Special Guests and Athletes</strong></p><p>The event will host some of the biggest names in extreme sports. Fans will have the chance to meet and greet their idols, get autographs, and even join them in select activities. Look forward to appearances by Tony Hawk, BMX legend Dave Mirra, and rock climbing sensation Sasha DiGiulian.</p><p>&nbsp;</p><p>&nbsp;</p></div>
+        <div class="ck-content"><p data-placeholder="[No text in field]">Montreal, QC – Get ready for an adrenaline rush as the most anticipated Extreme Sports Expo is set to take place at the Montreal Convention Centre soon. This electrifying event promises to bring together extreme sports enthusiasts, professional athletes, and curious newcomers for three days of high-octane activities, exhibitions, and demonstrations.</p><p><strong>Special Guests and Athletes</strong></p><p>The event will host some of the biggest names in extreme sports. Fans will have the chance to meet and greet their idols, get autographs, and even join them in select activities. Look forward to appearances by Tony Hawk, BMX legend Dave Mirra, and rock climbing sensation Sasha DiGiulian.</p><figure class="image"><img style="aspect-ratio:2400/1600;" src="-/media/528A9F674C624E1ABFEE82EB119D99FC.ashx?vs=1&amp;ts=487a4abc-9eed-4961-b096-66f086871f85" alt="Snowboard Action" width="2400" height="1600" /></figure><p>&nbsp;</p><p>&nbsp;</p></div>
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -120,12 +165,24 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0ADC511C-704E-4507-99F4-F12996A73E19}"
+              s:ds="e521a6f1-9c1b-50fd-ab79-333f31af229a" />
+          </d>
+        </r>
     - ID: "17707054-bc28-496c-925f-e614ba18f3e0"
       Hint: Title
       Value: L'Excitation Monte pour le Prochain Salon des Sports Extrêmes à Montréal
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "04603ca8-da26-49ab-ba59-ace3e91548e1"
+      Value: "87358abf-f7dd-431a-9a43-bcefd0ff6ef9"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: "Expo CA-FR"

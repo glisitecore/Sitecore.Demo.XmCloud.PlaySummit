@@ -3,9 +3,9 @@
   "href": "https://api-us.boxever.com/v3/flowDefinitions/39b85725-9f8f-491d-961f-656e8aa47ccc",
   "ref": "39b85725-9f8f-491d-961f-656e8aa47ccc",
   "name": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
-  "modifiedByRef": "UsQ4dFnLMklHuDXU8acKstHeXEC65tgU@clients",
-  "modifiedAt": "2024-07-30T19:29:14.633Z",
-  "revision": 12,
+  "modifiedByRef": "auth0|633482a4f4b7a325a5aaae74",
+  "modifiedAt": "2024-08-01T14:48:34.369Z",
+  "revision": 18,
   "archived": false,
   "friendlyId": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
   "type": "INTERACTIVE_API_FLOW",
@@ -20,7 +20,7 @@
   "traffic": {
     "type": "audienceTraffic",
     "weightingAlgorithm": "USER_DEFINED",
-    "modifiedAt": "2024-07-30T19:29:14.66Z",
+    "modifiedAt": "2024-08-01T14:48:34.51Z",
     "splits": [
       {
         "template": "{\"variantId\": \"11f5542ccf1149cabbc1c074469b97f9\"}",
@@ -50,13 +50,35 @@
             ]
           }
         ]
+      },
+      {
+        "template": "{\"variantId\": \"09698af75b744cfcaeeac266ec4268b1\"}",
+        "variantName": "Skateboarders",
+        "audienceName": "Skateboarders",
+        "conditionGroups": [
+          {
+            "conditions": [
+              {
+                "templateId": "number_of_page_views",
+                "params": {
+                  "has": "has",
+                  "second number": "0",
+                  "page": "skateboarding",
+                  "x": "5",
+                  "compares to": "is greater than",
+                  "number of views": "3"
+                }
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "variants": [],
   "transpiledVariants": [
     {
-      "ref": "eb248114-5922-4b94-92d2-22e47bcabfc8",
+      "ref": "3bbe030e-58f0-4935-af67-63ae85a32484",
       "name": "Snowboarders",
       "tasks": [
         {

@@ -396,48 +396,21 @@
     "components": [
       {
         "libraryId": "generated",
-        "id": "62R9BRMbJn",
-        "collectionId": "_Mv9Q76iKS",
-        "name": "GL Promo",
-        "description": "",
-        "status": "staged",
-        "versionCount": 1,
-        "stagedVersionCount": 1,
-        "embeddableVersionCount": 1,
-        "datasourceIds": [
-          "dfed4457d760457abec1c0dccdc44381"
-        ],
-        "createdAt": "2024-06-24T18:01:38.033Z",
-        "stagedAt": "2024-06-24T18:06:46.732Z",
-        "publishedAt": null,
-        "modifiedAt": "2024-06-24T18:06:46.732Z",
-        "modifiedBy": {
-          "id": "633482a4f4b7a325a5aaae74",
-          "name": "Gavin Little",
-          "email": "gavin.little@sitecore.com",
-          "picture": "https://s.gravatar.com/avatar/145ce7121efc8315c3647a9ff3c4507e?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fga.png",
-          "givenName": "Gavin",
-          "familyName": "Little"
-        },
-        "bundles": []
-      },
-      {
-        "libraryId": "generated",
-        "id": "TzN7cShDKB",
+        "id": "E0ov-HAPIt",
         "collectionId": "_Mv9Q76iKS",
         "name": "Promo",
         "description": "",
-        "status": "staged",
-        "versionCount": 1,
+        "status": "changed",
+        "versionCount": 3,
         "stagedVersionCount": 1,
         "embeddableVersionCount": 1,
         "datasourceIds": [
           "dfed4457d760457abec1c0dccdc44381"
         ],
-        "createdAt": "2024-06-17T18:48:43.802Z",
-        "stagedAt": "2024-06-17T18:57:08.187Z",
+        "createdAt": "2024-08-01T12:45:28.486Z",
+        "stagedAt": "2024-08-01T14:31:24.896Z",
         "publishedAt": null,
-        "modifiedAt": "2024-06-17T18:57:08.187Z",
+        "modifiedAt": "2024-08-01T14:31:24.896Z",
         "modifiedBy": {
           "id": "633482a4f4b7a325a5aaae74",
           "name": "Gavin Little",
@@ -446,7 +419,19 @@
           "givenName": "Gavin",
           "familyName": "Little"
         },
-        "bundles": []
+        "bundles": [
+          {
+            "id": "responsive",
+            "libraryId": "generated",
+            "componentId": "E0ov-HAPIt",
+            "name": "Default bundle",
+            "description": "",
+            "breakpoints": {},
+            "orderIdx": "",
+            "createdAt": "2024-08-01T14:16:47.124Z",
+            "modifiedAt": "2024-08-01T14:16:47.124Z"
+          }
+        ]
       }
     ]
   }
