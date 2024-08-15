@@ -396,21 +396,21 @@
     "components": [
       {
         "libraryId": "generated",
-        "id": "E0ov-HAPIt",
+        "id": "Grpd7MnwwR",
         "collectionId": "_Mv9Q76iKS",
-        "name": "Promo",
+        "name": "New Promo",
         "description": "",
-        "status": "changed",
-        "versionCount": 3,
+        "status": "staged",
+        "versionCount": 1,
         "stagedVersionCount": 1,
         "embeddableVersionCount": 1,
         "datasourceIds": [
           "dfed4457d760457abec1c0dccdc44381"
         ],
-        "createdAt": "2024-08-01T12:45:28.486Z",
-        "stagedAt": "2024-08-01T14:31:24.896Z",
+        "createdAt": "2024-08-14T17:26:24.724Z",
+        "stagedAt": "2024-08-14T18:22:35.568Z",
         "publishedAt": null,
-        "modifiedAt": "2024-08-01T14:31:24.896Z",
+        "modifiedAt": "2024-08-14T18:22:35.568Z",
         "modifiedBy": {
           "id": "633482a4f4b7a325a5aaae74",
           "name": "Gavin Little",
@@ -419,7 +419,19 @@
           "givenName": "Gavin",
           "familyName": "Little"
         },
-        "bundles": []
+        "bundles": [
+          {
+            "id": "responsive",
+            "libraryId": "generated",
+            "componentId": "Grpd7MnwwR",
+            "name": "Default bundle",
+            "description": "",
+            "breakpoints": {},
+            "orderIdx": "",
+            "createdAt": "2024-08-14T18:14:10.157Z",
+            "modifiedAt": "2024-08-14T18:14:10.157Z"
+          }
+        ]
       }
     ]
   }

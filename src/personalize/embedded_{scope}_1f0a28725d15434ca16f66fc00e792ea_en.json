@@ -3,9 +3,9 @@
   "href": "https://api-us.boxever.com/v3/flowDefinitions/39b85725-9f8f-491d-961f-656e8aa47ccc",
   "ref": "39b85725-9f8f-491d-961f-656e8aa47ccc",
   "name": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
-  "modifiedByRef": "UsQ4dFnLMklHuDXU8acKstHeXEC65tgU@clients",
-  "modifiedAt": "2024-08-13T14:04:02.066Z",
-  "revision": 22,
+  "modifiedByRef": "auth0|633482a4f4b7a325a5aaae74",
+  "modifiedAt": "2024-08-14T18:45:47.202Z",
+  "revision": 28,
   "archived": false,
   "friendlyId": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
   "type": "INTERACTIVE_API_FLOW",
@@ -20,39 +20,10 @@
   "traffic": {
     "type": "audienceTraffic",
     "weightingAlgorithm": "USER_DEFINED",
-    "modifiedAt": "2024-08-13T14:04:02.092Z",
+    "modifiedAt": "2024-08-14T18:45:47.218Z",
     "splits": [
       {
-        "template": "{\"variantId\": \"11f5542ccf1149cabbc1c074469b97f9\"}",
-        "variantName": "Snowboarders",
-        "audienceName": "Snowboarders",
-        "conditionGroups": [
-          {
-            "conditions": [
-              {
-                "templateId": "new_or_returning_visitor",
-                "params": {
-                  "type": "returning"
-                }
-              }
-            ]
-          },
-          {
-            "unionType": "AND",
-            "conditions": [
-              {
-                "templateId": "page_view",
-                "params": {
-                  "has": "has",
-                  "page name(s)": "/snowboarding"
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "template": "{\"variantId\": \"09698af75b744cfcaeeac266ec4268b1\"}",
+        "template": "{\"variantId\": \"72aeb40e1c6f4e58b6346d541e5c505b\"}",
         "variantName": "Skateboarders",
         "audienceName": "Skateboarders",
         "conditionGroups": [
@@ -63,10 +34,21 @@
                 "params": {
                   "has": "has",
                   "second number": "0",
-                  "page": "skateboarding",
-                  "x": "5",
-                  "compares to": "is greater than",
-                  "number of views": "3"
+                  "page": "skateboard",
+                  "x": "7",
+                  "compares to": "is equal to",
+                  "number of views": "2"
+                }
+              }
+            ]
+          },
+          {
+            "unionType": "OR",
+            "conditions": [
+              {
+                "templateId": "new_or_returning_visitor",
+                "params": {
+                  "type": "returning"
                 }
               }
             ]
@@ -78,7 +60,7 @@
   "variants": [],
   "transpiledVariants": [
     {
-      "ref": "42bf2ade-3508-4a2e-a658-c031cbba51b4",
+      "ref": "5bdf99d6-800b-447c-819b-75b96d173486",
       "name": "Skateboarders",
       "tasks": [
         {
@@ -86,7 +68,7 @@
           "input": {
             "inputType": "templateRenderTaskInput",
             "type": "application/json",
-            "template": "{\"variantId\": \"09698af75b744cfcaeeac266ec4268b1\"}"
+            "template": "{\"variantId\": \"72aeb40e1c6f4e58b6346d541e5c505b\"}"
           }
         },
         {
@@ -99,7 +81,7 @@
                 "name": "Combined condition groups",
                 "description": "Combined templates within condition group for targeted experience",
                 "ruleData": {
-                  "expression": "(function () {\n    var visited = \"has\";\n    var pageName = \"skateboarding\";\n    var compareValue = \"is greater than\";\n    var numberDays = 5;\n    var numberViews1 = 3;\n    var numberViews2 = 0;\n    var expectedSessionType = \"WEB\";\n    var expectedEventType = \"VIEW\";\n    var numPageViews = 0;\n    var actualDate = new Date(Date.now());\n    var lastViewPageDate;\n    var pageConditionMet = false;\n\n    if (guest && guest.sessions && guest.sessions.length > 0) {\n        loop:\n        for (var i = 0; i < guest.sessions.length; i++) {\n            if (guest.sessions[i]) {\n                if (guest.sessions[i].sessionType !== expectedSessionType) {\n                    continue loop;\n                } else if (guest.sessions[i].events) {\n                    for (var j = 0; j < guest.sessions[i].events.length; j++) {\n                        var eventData = guest.sessions[i].events[j].arbitraryData;\n                        var eventType = guest.sessions[i].events[j].type;\n\n                        if (eventData && eventData.page && eventType === expectedEventType) {\n                            var viewedpage = eventData.page;\n                            if (viewedpage === pageName) {\n                                var creationDate = guest.sessions[i].events[j].createdAt;\n                                if (creationDate) {\n                                    var date = new Date(creationDate);\n                                    var timePassed = actualDate.getTime() - date.getTime();\n                                    var daysPassed = Math.floor(timePassed / (1000 * 3600 * 24));\n                                    if (daysPassed <= numberDays) {\n                                        numPageViews++;\n                                    }\n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n\n        if (compareValue === 'is between') {\n            pageConditionMet = numPageViews >= numberViews1 && numPageViews <= numberViews2;\n        } else {\n            if (compareValue === 'is equal to') {\n               pageConditionMet = numPageViews === numberViews1; \n            } else if (compareValue === 'is greater than') {\n                pageConditionMet = numPageViews > numberViews1;\n            } else if (compareValue === 'is less than') {\n                pageConditionMet = numPageViews < numberViews1;\n            } else if (compareValue === 'is greater than or equal to') {\n                pageConditionMet = numPageViews >= numberViews1;\n            } else if (compareValue === 'is less than or equal to') {\n                pageConditionMet = numPageViews <= numberViews1;\n            }\n        }\n    }\n    \n    return (visited === \"has\" && pageConditionMet) || (visited === \"has not\" && !pageConditionMet);\n})();"
+                  "expression": "(function () {\n    var visited = \"has\";\n    var pageName = \"skateboard\";\n    var compareValue = \"is equal to\";\n    var numberDays = 7;\n    var numberViews1 = 2;\n    var numberViews2 = 0;\n    var expectedSessionType = \"WEB\";\n    var expectedEventType = \"VIEW\";\n    var numPageViews = 0;\n    var actualDate = new Date(Date.now());\n    var lastViewPageDate;\n    var pageConditionMet = false;\n\n    if (guest && guest.sessions && guest.sessions.length > 0) {\n        loop:\n        for (var i = 0; i < guest.sessions.length; i++) {\n            if (guest.sessions[i]) {\n                if (guest.sessions[i].sessionType !== expectedSessionType) {\n                    continue loop;\n                } else if (guest.sessions[i].events) {\n                    for (var j = 0; j < guest.sessions[i].events.length; j++) {\n                        var eventData = guest.sessions[i].events[j].arbitraryData;\n                        var eventType = guest.sessions[i].events[j].type;\n\n                        if (eventData && eventData.page && eventType === expectedEventType) {\n                            var viewedpage = eventData.page;\n                            if (viewedpage === pageName) {\n                                var creationDate = guest.sessions[i].events[j].createdAt;\n                                if (creationDate) {\n                                    var date = new Date(creationDate);\n                                    var timePassed = actualDate.getTime() - date.getTime();\n                                    var daysPassed = Math.floor(timePassed / (1000 * 3600 * 24));\n                                    if (daysPassed <= numberDays) {\n                                        numPageViews++;\n                                    }\n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n\n        if (compareValue === 'is between') {\n            pageConditionMet = numPageViews >= numberViews1 && numPageViews <= numberViews2;\n        } else {\n            if (compareValue === 'is equal to') {\n               pageConditionMet = numPageViews === numberViews1; \n            } else if (compareValue === 'is greater than') {\n                pageConditionMet = numPageViews > numberViews1;\n            } else if (compareValue === 'is less than') {\n                pageConditionMet = numPageViews < numberViews1;\n            } else if (compareValue === 'is greater than or equal to') {\n                pageConditionMet = numPageViews >= numberViews1;\n            } else if (compareValue === 'is less than or equal to') {\n                pageConditionMet = numPageViews <= numberViews1;\n            }\n        }\n    }\n    \n    return (visited === \"has\" && pageConditionMet) || (visited === \"has not\" && !pageConditionMet);\n})() || (function () {\n    var userType = \"returning\";\n    var expectedType = \"WEB\";\n    var expectedStatus = \"CLOSED\";\n    var isReturning = false;\n\n    if (guest && guest.sessions && guest.sessions.length > 0) {\n        for (var index = 0; index < guest.sessions.length; index++) {\n            if (\n                guest.sessions[index] &&\n                expectedType === guest.sessions[index].sessionType &&\n                expectedStatus === guest.sessions[index].status\n            ) {\n                isReturning = true;\n                break;\n            }\n        }\n    }\n\n    if (isReturning && userType === \"returning\") {\n        return true;\n    } else if (!isReturning && userType === \"new\") {\n        return true;\n    } else {\n        return false;\n    }\n})();"
                 }
               }
             ]
