@@ -3,9 +3,9 @@
   "href": "https://api-us.boxever.com/v3/flowDefinitions/39b85725-9f8f-491d-961f-656e8aa47ccc",
   "ref": "39b85725-9f8f-491d-961f-656e8aa47ccc",
   "name": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
-  "modifiedByRef": "auth0|633482a4f4b7a325a5aaae74",
-  "modifiedAt": "2024-08-14T18:45:47.202Z",
-  "revision": 28,
+  "modifiedByRef": "UsQ4dFnLMklHuDXU8acKstHeXEC65tgU@clients",
+  "modifiedAt": "2024-08-16T15:28:45.612Z",
+  "revision": 30,
   "archived": false,
   "friendlyId": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
   "type": "INTERACTIVE_API_FLOW",
@@ -20,7 +20,7 @@
   "traffic": {
     "type": "audienceTraffic",
     "weightingAlgorithm": "USER_DEFINED",
-    "modifiedAt": "2024-08-14T18:45:47.218Z",
+    "modifiedAt": "2024-08-16T15:28:45.636Z",
     "splits": [
       {
         "template": "{\"variantId\": \"72aeb40e1c6f4e58b6346d541e5c505b\"}",
@@ -60,7 +60,7 @@
   "variants": [],
   "transpiledVariants": [
     {
-      "ref": "5bdf99d6-800b-447c-819b-75b96d173486",
+      "ref": "f3af2bb5-8089-4bb5-ae16-f0b31b48fe8d",
       "name": "Skateboarders",
       "tasks": [
         {

@@ -419,19 +419,7 @@
           "givenName": "Gavin",
           "familyName": "Little"
         },
-        "bundles": [
-          {
-            "id": "responsive",
-            "libraryId": "generated",
-            "componentId": "Grpd7MnwwR",
-            "name": "Default bundle",
-            "description": "",
-            "breakpoints": {},
-            "orderIdx": "",
-            "createdAt": "2024-08-14T18:14:10.157Z",
-            "modifiedAt": "2024-08-14T18:14:10.157Z"
-          }
-        ]
+        "bundles": []
       }
     ]
   }

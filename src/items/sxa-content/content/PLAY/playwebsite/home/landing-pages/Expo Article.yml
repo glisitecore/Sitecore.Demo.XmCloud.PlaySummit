@@ -130,7 +130,7 @@ Languages:
       Value: Expo Article
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "11b5d750-009c-43f0-85f5-06d4db3eb429"
+      Value: "c97d23b6-695a-41cd-a7b2-22daad6b5b62"
     - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
       Hint: __Hide version
       Value: 1
@@ -158,6 +158,14 @@ Languages:
             <r
               uid="{0ADC511C-704E-4507-99F4-F12996A73E19}"
               s:ds="e521a6f1-9c1b-50fd-ab79-333f31af229a" />
+            <r
+              uid="{367DF11F-EECB-4A39-9692-CBAC433C8CA0}">
+              <p:d />
+            </r>
+            <r
+              uid="{BEDB644A-4F2C-404D-BE75-32C0A99E010E}">
+              <p:d />
+            </r>
           </d>
         </r>
     - ID: "17707054-bc28-496c-925f-e614ba18f3e0"
@@ -165,7 +173,7 @@ Languages:
       Value: L'Excitation Monte pour le Prochain Salon des Sports Extrêmes à Montréal
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "87358abf-f7dd-431a-9a43-bcefd0ff6ef9"
+      Value: "94058a28-0194-443b-baf0-155fe0dc2a18"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: "Expo CA-FR"
