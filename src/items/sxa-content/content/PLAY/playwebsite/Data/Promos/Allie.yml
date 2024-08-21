@@ -1,0 +1,30 @@
+﻿---
+ID: "2cdb7aba-fb39-4c59-9e3b-dd3f0d61b02f"
+Parent: "d2e97d8f-4634-41b2-ae8b-2b2d94f2d945"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: /sitecore/content/PLAY/playwebsite/Data/Promos/Allie
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f66862d-a5e3-405f-8e3e-b787b4c39b12"
+      Hint: PromoText2
+      Value: Here's my body copy
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: Here's my title
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce35392a-0d74-48da-aadf-d8b3d88fa027"
+    - ID: "c6e604c3-5371-4e67-83df-a09a5ea66249"
+      Hint: PromoText3
+      Value: Body copy 2
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{1F0A2872-5D15-434C-A16F-66FC00E792EA}" />
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image src="https://glixmcplay.sitecoresandbox.cloud/api/public/content/8450d6496ae64768b6e3708199d86ece?v=3176df9d" dam-id="Dem7plAXTj6SswNaFky_uw" width="1600" height="1200" alt="Sky Brown GB Skateboarder.jpg" dam-content-type="Image" thumbnailsrc="https://glixmcplay.sitecoresandbox.cloud/api/gateway/74899/thumbnail" />

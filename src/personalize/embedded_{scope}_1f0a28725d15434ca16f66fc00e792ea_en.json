@@ -4,8 +4,8 @@
   "ref": "39b85725-9f8f-491d-961f-656e8aa47ccc",
   "name": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
   "modifiedByRef": "UsQ4dFnLMklHuDXU8acKstHeXEC65tgU@clients",
-  "modifiedAt": "2024-08-16T15:28:45.612Z",
-  "revision": 30,
+  "modifiedAt": "2024-08-20T13:46:12.519Z",
+  "revision": 32,
   "archived": false,
   "friendlyId": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
   "type": "INTERACTIVE_API_FLOW",
@@ -20,7 +20,7 @@
   "traffic": {
     "type": "audienceTraffic",
     "weightingAlgorithm": "USER_DEFINED",
-    "modifiedAt": "2024-08-16T15:28:45.636Z",
+    "modifiedAt": "2024-08-20T13:46:12.551Z",
     "splits": [
       {
         "template": "{\"variantId\": \"72aeb40e1c6f4e58b6346d541e5c505b\"}",
@@ -60,7 +60,7 @@
   "variants": [],
   "transpiledVariants": [
     {
-      "ref": "f3af2bb5-8089-4bb5-ae16-f0b31b48fe8d",
+      "ref": "fb567fb1-0950-4e8f-a964-9957b77ee3e2",
       "name": "Skateboarders",
       "tasks": [
         {
