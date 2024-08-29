@@ -45,7 +45,7 @@ SharedFields:
         <r
           uid="{0ADC511C-704E-4507-99F4-F12996A73E19}"
           p:after="r[@uid='{1B7D12B4-590B-453A-8EDA-1DF00BDB7014}']"
-          s:ds="local:/Data/Hero Image"
+          s:ds="e521a6f1-9c1b-50fd-ab79-333f31af229a"
           s:id="{2C13DBC0-415C-5DAA-A7D9-56928F1271C4}"
           s:par=""
           s:ph="headless-main" />
@@ -57,55 +57,10 @@ SharedFields:
           s:ph="headless-main" />
         <r
           uid="{8FFB7C22-CF70-4713-B8D4-F2CD49456CA2}"
-          p:after="r[@uid='{AC9567C6-3585-41A8-BA17-0635691FB71F}']"
+          p:after="*[1=2]"
           s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
           s:par="GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7B0DC317A6-74BC-4BB4-B631-001CF43AE4B5%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
           s:ph="headless-main" />
-        <r
-          uid="{367DF11F-EECB-4A39-9692-CBAC433C8CA0}"
-          p:after="r[@uid='{8FFB7C22-CF70-4713-B8D4-F2CD49456CA2}']"
-          s:ds="3dcdf4a9-628f-4934-8195-4ecf11e51ad0"
-          s:id="{CAA0C742-F052-49FB-825B-A03494798DB7}"
-          s:pt="personalizationTest"
-          s:par="ComponentName=New Promo&amp;ComponentConfiguration&amp;LibraryId={{libraryId}}&amp;ComponentId=Grpd7MnwwR&amp;ComponentVersion=responsive&amp;ComponentRevision=staged&amp;ComponentHostName=https://feaas.blob.core.windows.net&amp;ComponentInstanceId=R5Y8DEAz1CJ7HEE&amp;ComponentDataOverride&amp;ComponentHTMLOverride&amp;ComponentLabel=New Promo&amp;GridParameters={F61E01E9-711A-4C99-AE30-4E28463E1DF7}&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
-          s:ph="/headless-main/container-5">
-          <rls>
-            <ruleset
-              s:pet="true">
-              <rule
-                uid="{396BA408-5F7E-4404-AD76-EB688658B9DB}"
-                s:name="72aeb40e1c6f4e58b6346d541e5c505b">
-                <conditions>
-                  <condition
-                    uid="F66C25EABC6C416FA3D5B3BB3E3F0538"
-                    s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
-                    s:VariantName="72aeb40e1c6f4e58b6346d541e5c505b" />
-                </conditions>
-                <actions>
-                  <action
-                    uid="{F41BA9A6-2F5F-44CF-B45B-10F06A457B74}"
-                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                    s:DataSource="2705243f-12d1-4308-ae61-dd291fa48e96" />
-                </actions>
-              </rule>
-              <rule
-                uid="{00000000-0000-0000-0000-000000000000}"
-                s:name="Default">
-                <conditions>
-                  <condition
-                    uid="239645D76F38469599B17044ADA94DA4"
-                    s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
-                </conditions>
-              </rule>
-            </ruleset>
-          </rls>
-        </r>
-        <r
-          uid="{BEDB644A-4F2C-404D-BE75-32C0A99E010E}"
-          p:after="*[1=2]"
-          s:id="{DDC43BE7-D77A-4CE3-9282-03DD036EEC6D}"
-          s:par="ComponentName=SitecoreForm%3FformId%3D5a956258227a4d21a666498fb44a8c9c-use&amp;ComponentProps&amp;ComponentLabel=Event%20Registration&amp;GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
-          s:ph="/headless-main/container-5" />
       </d>
     </r>
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
@@ -127,13 +82,60 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{367DF11F-EECB-4A39-9692-CBAC433C8CA0}">
-              <p:d />
+              uid="{C5008575-59F1-4FDE-80AF-BCB0DB6EF2E4}"
+              p:after="r[@uid='{1B7D12B4-590B-453A-8EDA-1DF00BDB7014}']"
+              s:ds="2705243f-12d1-4308-ae61-dd291fa48e96"
+              s:id="{CAA0C742-F052-49FB-825B-A03494798DB7}"
+              s:pt="personalizationTest"
+              s:par="ComponentName=Promo&amp;ComponentConfiguration&amp;LibraryId={{libraryId}}&amp;ComponentId=1c2o4CG46T&amp;ComponentVersion=responsive&amp;ComponentRevision=staged&amp;ComponentHostName=https://feaas.blob.core.windows.net&amp;ComponentInstanceId=Cl26IiR22DPvPrL&amp;ComponentDataOverride&amp;ComponentHTMLOverride&amp;ComponentLabel=Promo&amp;GridParameters={F61E01E9-711A-4C99-AE30-4E28463E1DF7}&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
+              s:ph="/headless-main/container-1">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{DD196683-16DD-447E-88E1-88741B2C7074}"
+                    s:name="74a578c5d932491e9daf7037fccf5080">
+                    <conditions>
+                      <condition
+                        uid="B51F5AE3E9BD42AEB2C39D7181A26196"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="74a578c5d932491e9daf7037fccf5080" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{8F391A8E-500B-4D6E-ADF9-D592692C5A20}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="3dcdf4a9-628f-4934-8195-4ecf11e51ad0" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="94F1D28E53EF42A68EA8EC1F5402D98F"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
             </r>
             <r
-              uid="{BEDB644A-4F2C-404D-BE75-32C0A99E010E}">
-              <p:d />
-            </r>
+              uid="{8514BAE2-2878-4C20-B564-F486A5113A0A}"
+              p:after="r[@uid='{C5008575-59F1-4FDE-80AF-BCB0DB6EF2E4}']"
+              s:id="{DDC43BE7-D77A-4CE3-9282-03DD036EEC6D}"
+              s:par="ComponentName=SitecoreForm%3FformId%3Dda2a79d2d2154e83a0e3a1abe79b9fe9-use&amp;ComponentProps&amp;ComponentLabel=Sign%20Up&amp;GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=10"
+              s:ph="/headless-main/container-1" />
+            <r
+              uid="{0ADC511C-704E-4507-99F4-F12996A73E19}"
+              s:ds="local:/Data/Hero Image" />
+            <r
+              uid="{367DF11F-EECB-4A39-9692-CBAC433C8CA0}"
+              p:after="*[1=2]"
+              s:ds="3dcdf4a9-628f-4934-8195-4ecf11e51ad0"
+              s:id="{CAA0C742-F052-49FB-825B-A03494798DB7}"
+              s:par="ComponentName=New Promo&amp;ComponentConfiguration&amp;LibraryId={{libraryId}}&amp;ComponentId=Grpd7MnwwR&amp;ComponentVersion=responsive&amp;ComponentRevision=staged&amp;ComponentHostName=https://feaas.blob.core.windows.net&amp;ComponentInstanceId=R5Y8DEAz1CJ7HEE&amp;ComponentDataOverride&amp;ComponentHTMLOverride&amp;ComponentLabel=New Promo&amp;GridParameters={F61E01E9-711A-4C99-AE30-4E28463E1DF7}&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+              s:ph="/headless-main/container-5" />
           </d>
         </r>
     - ID: "17707054-bc28-496c-925f-e614ba18f3e0"
@@ -144,7 +146,7 @@ Languages:
       Value: Expo Article
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d20de576-bfe6-454b-a24c-6b7df364da14"
+      Value: "9a68b044-797a-44bf-bd3a-6998224410fc"
     - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
       Hint: __Hide version
       Value: 1
@@ -154,7 +156,7 @@ Languages:
     - ID: "e0c0c8a4-0fea-4963-8b86-d47810b80efa"
       Hint: Content
       Value: |
-        <div class="ck-content"><p data-placeholder="[No text in field]">Montreal, QC – Get ready for an adrenaline rush as the most anticipated Extreme Sports Expo is set to take place at the Montreal Convention Centre soon. This electrifying event promises to bring together extreme sports enthusiasts, professional athletes, and curious newcomers for three days of high-octane activities, exhibitions, and demonstrations.</p><p><strong>Special Guests and Athletes</strong></p><p>The event will host some of the biggest names in extreme sports. Fans will have the chance to meet and greet their idols, get autographs, and even join them in select activities. Look forward to appearances by Tony Hawk, BMX legend Dave Mirra, and rock climbing sensation Sasha DiGiulian.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
+        <div class="ck-content"><p data-placeholder="[No text in field]">Montreal, QC – Get ready for an adrenaline rush as the most anticipated Extreme Sports Expo is set to take place at the Montreal Convention Centre soon. This electrifying event promises to bring together extreme sports enthusiasts, professional athletes, and curious newcomers for three days of high-octane activities, exhibitions, and demonstrations.</p><p><strong>Special Guests and Athletes</strong></p><p>The event will host some of the biggest names in extreme sports. Fans will have the chance to meet and greet their idols, get autographs, and even join them in select activities. Look forward to appearances by Tony Hawk, BMX legend Dave Mirra, and rock climbing sensation Sasha DiGiulian.</p><figure class="image"><img style="aspect-ratio:1197/572;" src="https://glixmcplay.sitecoresandbox.cloud/api/public/content/24f7d2ce5afc4e699501d153d4a0fe48?v=8224deb7" alt="Sky Brown GB Skateboarder.jpg" width="1197" height="572" /></figure><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -187,10 +189,11 @@ Languages:
       Value: L'Excitation Monte pour le Prochain Salon des Sports Extrêmes à Montréal
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "94058a28-0194-443b-baf0-155fe0dc2a18"
+      Value: "54f0147e-53a7-40f5-bf26-40a8e5e78b43"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: "Expo CA-FR"
     - ID: "e0c0c8a4-0fea-4963-8b86-d47810b80efa"
       Hint: Content
-      Value: "<p>Montréal, QC –  Préparez-vous pour une montée d'adrénaline alors que le salon des sports extrêmes le plus attendu aura lieu au Palais des Congrès de Montréal près d'ici. Cet événement électrisant promet de réunir des passionnés de sports extrêmes, des athlètes professionnels et des curieux pour trois jours d'activités à haute intensité, d'expositions et de démonstrations.</p><p><strong>Invités Spéciaux et Athlètes</strong></p><p>L'événement accueillera certains des plus grands noms des sports extrêmes. Les fans auront la chance de rencontrer leurs idoles, de recevoir des autographes et même de les rejoindre pour certaines activités. Attendez-vous à des apparitions de Tony Hawk, de la légende du BMX Dave Mirra et de la sensation de l'escalade Sasha DiGiulian.</p>"
+      Value: |
+        <div class="ck-content"><p data-placeholder="[No text in field]">Montréal, QC – Préparez-vous pour une montée d'adrénaline alors que le salon des sports extrêmes le plus attendu aura lieu au Palais des Congrès de Montréal près d'ici. Cet événement électrisant promet de réunir des passionnés de sports extrêmes, des athlètes professionnels et des curieux pour trois jours d'activités à haute intensité, d'expositions et de démonstrations.</p><p><strong>Invités Spéciaux et Athlètes</strong></p><p>L'événement accueillera certains des plus grands noms des sports extrêmes. Les fans auront la chance de rencontrer leurs idoles, de recevoir des autographes et même de les rejoindre pour certaines activités. Attendez-vous à des apparitions de Tony Hawk, de la légende du BMX Dave Mirra et de la sensation de l'escalade Sasha DiGiulian.</p></div>

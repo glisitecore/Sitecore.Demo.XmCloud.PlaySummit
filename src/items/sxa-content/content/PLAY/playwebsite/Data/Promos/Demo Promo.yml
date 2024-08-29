@@ -20,7 +20,7 @@ Languages:
         <image mediaid="{CCAA3DA2-F72A-4AED-8B44-674BBD9DC5A6}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "218de3e4-b4f5-4897-aafe-0c6ee6c32839"
+      Value: "b53b2c94-4634-4b09-bba7-0fdf8b896d13"
     - ID: "c6e604c3-5371-4e67-83df-a09a5ea66249"
       Hint: PromoText3
       Value: Sed commodo eu ex ut consequat. Sed consectetur, magna a gravida convallis, turpis sem egestas.
@@ -31,4 +31,4 @@ Languages:
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |
-        <image mediaid="{528A9F67-4C62-4E1A-BFEE-82EB119D99FC}" />
+        <image src="https://glixmcplay.sitecoresandbox.cloud/api/public/content/73596c03303e4e6c8277e5a8cafca7a7?v=af3caa93" dam-id="xTGtHHtcS3mRoy4bfRyPVA" width="2400" height="1600" alt="snowboardactionbw (1).jpg" dam-content-type="Image" thumbnailsrc="https://glixmcplay.sitecoresandbox.cloud/api/gateway/74968/thumbnail" />

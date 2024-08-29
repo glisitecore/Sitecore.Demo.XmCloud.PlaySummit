@@ -396,9 +396,9 @@
     "components": [
       {
         "libraryId": "generated",
-        "id": "dXjf5FtkCs",
+        "id": "1c2o4CG46T",
         "collectionId": "_Mv9Q76iKS",
-        "name": "New Promo",
+        "name": "Promo",
         "description": "",
         "status": "staged",
         "versionCount": 1,
@@ -407,10 +407,10 @@
         "datasourceIds": [
           "dfed4457d760457abec1c0dccdc44381"
         ],
-        "createdAt": "2024-08-27T18:16:36.629Z",
-        "stagedAt": "2024-08-27T18:19:55.299Z",
+        "createdAt": "2024-08-28T17:10:36.558Z",
+        "stagedAt": "2024-08-28T18:29:09.353Z",
         "publishedAt": null,
-        "modifiedAt": "2024-08-27T18:19:55.299Z",
+        "modifiedAt": "2024-08-28T18:29:09.353Z",
         "modifiedBy": {
           "id": "633482a4f4b7a325a5aaae74",
           "name": "Gavin Little",
@@ -423,13 +423,13 @@
           {
             "id": "responsive",
             "libraryId": "generated",
-            "componentId": "dXjf5FtkCs",
+            "componentId": "1c2o4CG46T",
             "name": "Default bundle",
             "description": "",
             "breakpoints": {},
             "orderIdx": "",
-            "createdAt": "2024-08-27T18:16:45.414Z",
-            "modifiedAt": "2024-08-27T18:16:45.414Z"
+            "createdAt": "2024-08-28T18:21:44.814Z",
+            "modifiedAt": "2024-08-28T18:21:44.814Z"
           }
         ]
       }
