@@ -1,11 +1,11 @@
 {
-  "clientKey": "3509a0a2b7cc0542af1e697ea16dafe9",
-  "href": "https://api-us.boxever.com/v3/flowDefinitions/39b85725-9f8f-491d-961f-656e8aa47ccc",
-  "ref": "39b85725-9f8f-491d-961f-656e8aa47ccc",
+  "clientKey": "84c3696ed849ab686bb60d0058523ef9",
+  "href": "https://api-us.boxever.com/v3/flowDefinitions/d70bbae5-5e13-4c29-9143-ec4954756f28",
+  "ref": "d70bbae5-5e13-4c29-9143-ec4954756f28",
   "name": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
-  "modifiedByRef": "auth0|633482a4f4b7a325a5aaae74",
-  "modifiedAt": "2024-08-28T18:48:24.792Z",
-  "revision": 39,
+  "modifiedByRef": "Ub7x6sEoPLwXjVuenV6Knbn8KanIQMNf@clients",
+  "modifiedAt": "2024-09-17T17:47:15.682Z",
+  "revision": 2,
   "archived": false,
   "friendlyId": "embedded_{scope}_1f0a28725d15434ca16f66fc00e792ea_en",
   "type": "INTERACTIVE_API_FLOW",
@@ -20,7 +20,7 @@
   "traffic": {
     "type": "audienceTraffic",
     "weightingAlgorithm": "USER_DEFINED",
-    "modifiedAt": "2024-08-28T18:48:24.922Z",
+    "modifiedAt": "2024-09-17T17:47:15.807Z",
     "splits": [
       {
         "template": "{\"variantId\": \"74a578c5d932491e9daf7037fccf5080\"}",
@@ -49,7 +49,7 @@
   "variants": [],
   "transpiledVariants": [
     {
-      "ref": "69d3eab7-048c-4c4e-9cb2-b02aa5940b64",
+      "ref": "76df02b9-4e90-4a76-bf5e-8624a87b0537",
       "name": "Snowboarders",
       "tasks": [
         {
@@ -85,7 +85,7 @@
     "startDate": "2024-06-17T19:14:59.301Z"
   },
   "revisions": {
-    "href": "https://api-us.boxever.com/v3/flowDefinitions/39b85725-9f8f-491d-961f-656e8aa47ccc/revisions"
+    "href": "https://api-us.boxever.com/v3/flowDefinitions/d70bbae5-5e13-4c29-9143-ec4954756f28/revisions"
   },
   "sampleSizeConfig": {
     "baseValue": 0.15,
